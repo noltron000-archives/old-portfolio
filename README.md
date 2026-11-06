@@ -18,19 +18,26 @@ Thus, some really cool technologies have been used!
 - Command Line
 - VSCode
 - Git Kraken
-- ESLint
+- HTML5
+- CSS3
+- ES6
 - React
 - TypeScript
 - Jest
 - Sass
-- Material UI
+- ESLint
 - GitHub Pages
 - Travis CI
 - Coveralls
 - Husky `?`
 - ~~Prettier~~
+- ~~Material UI~~
 <!-- - Uglify JS -->
 <!-- - Uglify CSS -->
+
+### Special Thanks
+This portfolio was created using a template on [*HTML5UP*](https://html5up.net/).
+The author made their projects using the [*Creative Commons Attribution 3.0 License*](https://html5up.net/license), which made this styled portfolio possible.
 
 ### Why No Prettier?
 Prettier is great and all, but it is heavily opinionated.
@@ -53,8 +60,7 @@ But ultimately, for myself, ESLint + Husky is enough to enforce a beautiful code
 # Deployment
 1. create a pull request to `dev`.
 1. when operations are ready, `dev` will be merged to `deploy`.
-1. while on `deploy`, a programmer can run `yarn run deploy` to trigger a build.
-	- note: the deployment will only take effect if there are changes to the frontend.
+1. once merged into `deploy`, TravisCI will build the app and commit it to `master`.
 1. `master` is an orphaned branch; github uses this branch as information to host on github pages.
 
 # Resources
